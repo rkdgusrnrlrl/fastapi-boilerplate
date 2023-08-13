@@ -1,8 +1,5 @@
 from fastapi import FastAPI
+from presentation.router import router
 
 app = FastAPI()
-
-
-@app.get("/")
-def health_check():
-    return {"ping": "pong"}
+app.include_router(router)
