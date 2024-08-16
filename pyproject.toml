@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "fastapi-boilerplate"
+version = "0.1.0"
+description = "A FastAPI application with SQLAlchemy"
+authors = ["Hyeonku Kang <rkdgusrnrlrl@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+fastapi = "^0.95.0"
+sqlalchemy = "^1.4.0"
+
+[tool.poetry.dev-dependencies]
+uvicorn = "^0.18.0"
+pytest = "^7.0.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
