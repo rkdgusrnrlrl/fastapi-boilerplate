@@ -1,8 +1,9 @@
+
 from decimal import Decimal
 
 from fastapi import APIRouter
 
-from .out_schemas import GetProductsResponse, Product
+from app.schemas import GetProductsResponse, Product
 
 router = APIRouter()
 
